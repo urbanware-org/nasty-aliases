@@ -6,6 +6,7 @@
 *   [Example](#example)
 *   [Usage](#usage)
 *   [Exit codes](#exit-codes)
+*   [Contact](#contact)
 
 ----
 
@@ -13,7 +14,7 @@
 
 Script to check if there are nasty shell aliases and report them to avoid the misuse of aliases and prevent potential damage to the system.
 
-[Top](#)
+[Top](#nasty-aliases)
 
 ## Details
 
@@ -27,7 +28,7 @@ However, to do this, the offender usually must have access to your account, for 
 
 Feel free to modify!
 
-[Top](#)
+[Top](#nasty-aliases)
 
 ## Example
 
@@ -62,7 +63,7 @@ After saving the shell history of the current session must be cleared so the use
 
 Next time the user opens a terminal and uses the `sudo` command the fake script will be executed.
 
-[Top](#)
+[Top](#nasty-aliases)
 
 ## Usage
 
@@ -125,7 +126,7 @@ You can also check for multiple commands like this:
 
 The list of commands must be enclosed either with single (`'`) or double quotes (`"`) and be separated by spaces as shown above.
 
-[Top](#)
+[Top](#nasty-aliases)
 
 ## Exit codes
 
@@ -137,4 +138,12 @@ If you want to redirect or suppress the standard output, you can evaluate the ex
 | 1     | Too many arguments given (quotes missing?) |
 | 2     | No error but suspicious aliases have been found |
 
-[Top](#)
+[Top](#nasty-aliases)
+
+## Contact
+
+Any suggestions, questions, bugs to report or feedback to give?
+
+You can contact me by sending an email to <dev@urbanware.org>.
+
+[Top](#nasty-aliases)
