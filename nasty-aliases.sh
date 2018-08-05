@@ -6,6 +6,7 @@
 # Distributed under the MIT License (https://opensource.org/licenses/MIT)
 #
 # GitHub: https://github.com/urbanware-org/nasty-aliases
+# GitLab: https://gitlab.com/urbanware-org/nasty-aliases
 # ============================================================================
 
 version="1.1.7"
