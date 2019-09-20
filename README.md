@@ -53,7 +53,7 @@ It basically asks for the password of the user with a prompt that looks like the
 
 Then the script returns a fake error, like the user had mistyped the password and the real `sudo` command will be executed with the given parameters.
 
-When that script has been created (e. g. `/tmp/fakesudo.sh`) and marked as executable, the nasty alias must be inserted in to the `.bashrc` file of the user:
+When that script has been created (e.g. `/tmp/fakesudo.sh`) and marked as executable, the nasty alias must be inserted in to the `.bashrc` file of the user:
 
 ```bash
 alias sudo='/tmp/fakesudo.sh'
@@ -73,7 +73,7 @@ There are two ways the script can be used. Either by adding it to the shell (in 
 
 How to add the script to the Bash resource file:
 
-1.  Copy the `nasty-aliases.sh` script file into a directory of your choice (e. g. `/opt/nasty-aliases`).
+1.  Copy the `nasty-aliases.sh` script file into a directory of your choice (e.g. `/opt/nasty-aliases`).
 
 1.  Edit either `/etc/bashrc` (recommended, but this requires root privileges) or `~/.bashrc` (the `.bashrc` file of the current user) and add the following line:
 
@@ -112,7 +112,7 @@ When you run the script without any command-line arguments
 
 nothing will happen and the it exits instantly.
 
-However, you can give the name of the command you want to check if there are aliases for as an argument, e. g. for `sudo`:
+However, you can give the name of the command you want to check if there are aliases for as an argument, e.g. for `sudo`:
 
 ```bash
 ./nasty_aliases.sh sudo
