@@ -75,7 +75,7 @@ How to add the script to the Bash resource file:
 
 1.  Copy the `nasty-aliases.sh` script file into a directory of your choice (e.g. `/opt/nasty-aliases`).
 
-1.  Edit either `/etc/bashrc` (recommended, but this requires superuser privileges) or `~/.bashrc` (the `.bashrc` file of the current user) and add the following line:
+1.  Edit either `/etc/bashrc` (recommended, but this requires **superuser privileges**) or `~/.bashrc` (the `.bashrc` file of the current user) and add the following line:
 
     ```bash
     source /opt/nasty-aliases/nasty-aliases.sh
